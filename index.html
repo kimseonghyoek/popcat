@@ -12,8 +12,10 @@
     <h2>TIME: 00.00</h2>
     <h2>COUNT: 00</h2>
   </div>
-  <main id="contents" onclick="onClick()">
-    <img src="img/closecat.png" alt="">
+  <main id="contents" onmousedown="onClick()" onmouseup="onUp()">
+    <img id="cat" src="img/closecat.png" alt="">
+    <audio id="audioSource" src="./pop-cat-original-meme_3ObdYkj.mp3">
+    </audio>
   </main>
   <script src="./index.js"></script>
 </body>

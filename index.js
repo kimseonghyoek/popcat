@@ -1,12 +1,9 @@
-window.onload = function() {
-  var popit = document.getElementById("contents");
-  popit.click = onClick;
-}
-
 function onClick() {
-  alert("pop");
+  document.getElementById('cat').src = './img/popcat.png';
+  var audio = new Audio('./pop-cat-original-meme_3ObdYkj.mp3');
+  audio.play(); 
 };
 
-function counter(count) {
-  
+function onUp() {
+  document.getElementById('cat').src = './img/closecat.png';
 }
