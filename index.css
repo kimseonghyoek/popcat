@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
 body {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   margin: 0%;
   background-color: #666666;
   display: flex;
@@ -18,20 +18,28 @@ body {
   align-items: center;
 }
 
-#title > h1 {
-  font-size: 100px;
+#title h1 {
+  font-size: 95px;
   margin: 5px;
   -webkit-text-stroke: 1px #f8ff2f;
   color: white;
 }
 
-#title > h2 {
-  font-size: 55px;
+#title h2 {
+  font-size: 45px;
   margin: 5px;
   color: white;
 }
 
 #contents {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  height: 65%;
+}
+
+#cat {
+  width: auto;
+  height: 95%;
 }

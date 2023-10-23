@@ -6,4 +6,5 @@ function onClick() {
 
 function onUp() {
   document.getElementById('cat').src = './img/closecat.png';
-}
+};
+
