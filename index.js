@@ -8,3 +8,6 @@ function onUp() {
   document.getElementById('cat').src = './img/closecat.png';
 };
 
+window.onload = function() {
+  var name = prompt("이름을 입력하세요!");
+}
