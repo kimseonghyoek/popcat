@@ -25,10 +25,14 @@ body {
   color: white;
 }
 
-#title h2 {
+.items h2 {
   font-size: 45px;
-  margin: 5px;
+  margin: 5px 7px 5px 7px;
   color: white;
+}
+
+.items {
+  display: flex ;
 }
 
 #contents {
